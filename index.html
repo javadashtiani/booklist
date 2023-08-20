@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book List</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <body>
+    <div class="booklist-box">
+      <h2>My BookList</h2>
+      <div>
+        <label for="title">Title</label>
+        <input type="text" id="title" />
+      </div>
+      <div>
+        <label for="author">Author</label>
+        <input type="text" id="author" />
+      </div>
+      <div>
+        <label for="year">Year</label>
+        <input type="text" id="year" />
+      </div>
+      <a href="#" class="add">Add</a>
+    </div>
+    <!-- result box -->
+    <div class="result-box">
+      <div>
+        <h2>Title</h2>
+      </div>
+      <div>
+        <h2>Author</h2>
+      </div>
+      <div>
+        <h2>Year</h2>
+      </div>
+    </div>
+    <div class="show-result">
+      <div class="result-box-title"></div>
+      <div class="result-box-author"></div>
+      <div class="result-box-year"></div>
+    </div>
+    <div class="alert-box">
+      Please Fill The Gap
+
+      <a href="#" class="close-alert">OK</a>
+    </div>
+   <script src="main.js"></script>
+  </body>
+</html>
